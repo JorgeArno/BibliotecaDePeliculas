@@ -11,9 +11,9 @@ using Services;
 
 namespace DesktopMovie
 {
-    public partial class Form1 : Form
+    public partial class ListMovie : Form
     {
-        public Form1()
+        public ListMovie()
         {
             InitializeComponent();
         }
@@ -30,12 +30,14 @@ namespace DesktopMovie
         {
             myServices.addMovie(txtTitle.Text, int.Parse(txtTime.Text), int.Parse(txtYear.Text));
             dgvResult.DataSource = myServices.getMovies();
+            clearText();
         }
 
         private void btnUpdateMovie_Click(object sender, EventArgs e)
         {
             myServices.updateMovie(int.Parse(dgvResult.CurrentCell.Value.ToString()), txtTitle.Text, int.Parse(txtTime.Text), int.Parse(txtYear.Text));
             dgvResult.DataSource = myServices.getMovies();
+            clearText();
         }
 
         private void btnSearchMovie_Click(object sender, EventArgs e)
@@ -45,13 +47,37 @@ namespace DesktopMovie
 
         private void btnDeleteMovie_Click(object sender, EventArgs e)
         {
-            myServices.deleteMovie(int.Parse(dgvResult.CurrentCell.Value.ToString()));
-            dgvResult.DataSource = myServices.getMovies();
+            try
+            {
+                myServices.deleteMovie(int.Parse(dgvResult.CurrentCell.Value.ToString()));
+                dgvResult.DataSource = myServices.getMovies();
+            }
+            catch(Exception error)
+            {
+                MessageBox.Show("Para eliminar una pelicula seleccione el ID", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnLoadMovie_Click(object sender, EventArgs e)
         {
-            myServices.loadMovie(int.Parse(dgvResult.CurrentCell.Value.ToString()), txtTitle, txtTime, txtYear);
+            try
+            {
+                myServices.loadMovie(int.Parse(dgvResult.CurrentCell.Value.ToString()), txtTitle, txtTime, txtYear);
+            }
+            catch(Exception error)
+            {
+                MessageBox.Show("Para cargar una pelicula seleccione el ID", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
+        public void clearText()
+        {
+            txtTime.Clear();
+            txtTitle.Clear();
+            txtYear.Clear();
+        }
+     
     }
+
+    
 }

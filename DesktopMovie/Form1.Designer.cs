@@ -1,6 +1,6 @@
 ﻿namespace DesktopMovie
 {
-    partial class Form1
+    partial class ListMovie
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dgvResult = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -40,12 +41,23 @@
             this.btnSearchMovie = new System.Windows.Forms.Button();
             this.btnDeleteMovie = new System.Windows.Forms.Button();
             this.btnLoadMovie = new System.Windows.Forms.Button();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.title = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.time = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.year = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.error = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvResult)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.error)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvResult
             // 
             this.dgvResult.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvResult.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.title,
+            this.time,
+            this.year});
             this.dgvResult.Location = new System.Drawing.Point(12, 12);
             this.dgvResult.Name = "dgvResult";
             this.dgvResult.Size = new System.Drawing.Size(679, 381);
@@ -84,6 +96,8 @@
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(293, 20);
             this.txtTitle.TabIndex = 4;
+            this.txtTitle.MouseLeave += new System.EventHandler(this.txtTitle_MouseLeave);
+            this.txtTitle.MouseHover += new System.EventHandler(this.txtTitle_MouseHover);
             // 
             // txtTime
             // 
@@ -149,7 +163,35 @@
             this.btnLoadMovie.UseVisualStyleBackColor = true;
             this.btnLoadMovie.Click += new System.EventHandler(this.btnLoadMovie_Click);
             // 
-            // Form1
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            // 
+            // title
+            // 
+            this.title.DataPropertyName = "title";
+            this.title.HeaderText = "Titulo De La Pelicula";
+            this.title.Name = "title";
+            // 
+            // time
+            // 
+            this.time.DataPropertyName = "time";
+            this.time.HeaderText = "Duracion De La Pelicula";
+            this.time.Name = "time";
+            // 
+            // year
+            // 
+            this.year.DataPropertyName = "year";
+            this.year.HeaderText = "Año De Estreno";
+            this.year.Name = "year";
+            // 
+            // error
+            // 
+            this.error.ContainerControl = this;
+            // 
+            // ListMovie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -166,10 +208,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvResult);
-            this.Name = "Form1";
+            this.Name = "ListMovie";
             this.Text = "Mi Mejores Peliculas";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvResult)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.error)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -189,6 +232,11 @@
         private System.Windows.Forms.Button btnSearchMovie;
         private System.Windows.Forms.Button btnDeleteMovie;
         private System.Windows.Forms.Button btnLoadMovie;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn title;
+        private System.Windows.Forms.DataGridViewTextBoxColumn time;
+        private System.Windows.Forms.DataGridViewTextBoxColumn year;
+        private System.Windows.Forms.ErrorProvider error;
     }
 }
 

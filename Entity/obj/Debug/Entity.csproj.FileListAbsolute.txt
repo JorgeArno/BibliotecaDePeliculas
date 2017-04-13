@@ -1,0 +1,10 @@
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Entity\bin\Debug\Entity.dll.config
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Entity\bin\Debug\Entity.dll
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Entity\bin\Debug\Entity.pdb
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Entity\bin\Debug\EntityFramework.dll
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Entity\bin\Debug\EntityFramework.xml
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Entity\obj\Debug\Entity.dll
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Entity\obj\Debug\Entity.pdb

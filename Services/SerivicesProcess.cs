@@ -54,7 +54,7 @@ namespace Services
                 foreach (Movie myMovie in myMovieList)
                 {
                     title.Text = myMovie.title;
-                    duration.Text = myMovie.title;
+                    duration.Text = Convert.ToString(myMovie.time);
                     year.Text = Convert.ToString(myMovie.year);
                 }
             }

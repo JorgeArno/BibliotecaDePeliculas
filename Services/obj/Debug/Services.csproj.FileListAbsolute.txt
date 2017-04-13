@@ -1,0 +1,16 @@
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\bin\Debug\Services.dll.config
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\bin\Debug\Services.dll
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\bin\Debug\Services.pdb
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\bin\Debug\Entity.dll
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\bin\Debug\EntityFramework.dll
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\bin\Debug\MyContext.dll
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\bin\Debug\Entity.pdb
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\bin\Debug\Entity.dll.config
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\bin\Debug\MyContext.pdb
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\bin\Debug\MyContext.dll.config
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\bin\Debug\EntityFramework.xml
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\obj\Debug\Services.dll
+C:\Users\React\Documents\GitHub\BibliotecaPeliculas\BibliotecaDePeliculas\Services\obj\Debug\Services.pdb

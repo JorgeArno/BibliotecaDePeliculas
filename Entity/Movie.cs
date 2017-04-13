@@ -14,7 +14,7 @@ namespace Entity
         [Required]
         public String title { get; set; }
         [Required]
-        public short time { get; set; }
-        public short year { get; set; }
+        public int time { get; set; }
+        public int year { get; set; }
     }
 }

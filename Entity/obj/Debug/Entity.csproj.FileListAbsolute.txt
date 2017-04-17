@@ -1,0 +1,10 @@
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\Entity\bin\Debug\Entity.dll.config
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\Entity\bin\Debug\Entity.dll
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\Entity\bin\Debug\Entity.pdb
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\Entity\bin\Debug\EntityFramework.dll
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\Entity\bin\Debug\EntityFramework.xml
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\Entity\obj\Debug\Entity.dll
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\Entity\obj\Debug\Entity.pdb

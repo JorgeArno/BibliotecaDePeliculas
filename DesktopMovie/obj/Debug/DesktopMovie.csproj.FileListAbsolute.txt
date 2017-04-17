@@ -1,0 +1,9 @@
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\DesktopMovie\bin\Debug\DesktopMovie.exe.config
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\DesktopMovie\bin\Debug\DesktopMovie.exe
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\DesktopMovie\bin\Debug\DesktopMovie.pdb
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\DesktopMovie\obj\Debug\DesktopMovie.csprojResolveAssemblyReference.cache
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\DesktopMovie\obj\Debug\DesktopMovie.Form1.resources
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\DesktopMovie\obj\Debug\DesktopMovie.Properties.Resources.resources
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\DesktopMovie\obj\Debug\DesktopMovie.csproj.GenerateResource.Cache
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\DesktopMovie\obj\Debug\DesktopMovie.exe
+C:\Users\Jorge Arno\Documents\GitHub\BibliotecaDePeliculas\DesktopMovie\obj\Debug\DesktopMovie.pdb
